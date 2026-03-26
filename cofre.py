@@ -4,6 +4,9 @@ import json
 import base64
 import os 
 
+
+# O arquivo cofre.dat é ignorado pelo Git por conter dados sensíveis.
+# Use o cofre.exemplo.dat como referência :)
 ARQUIVO = "cofre.dat"
 
 # Função simples de "criptografia"
